@@ -19,8 +19,7 @@ published = ":date_full"
 
 [sidebar]
 avatar = "img/avatar.png"
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+subtitle = "这里是 PassionMortal 放细碎的地方。"
 
 [article]
 headingAnchor = false

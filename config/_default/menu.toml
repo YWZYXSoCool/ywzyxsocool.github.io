@@ -10,15 +10,15 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/ywzyxsocool"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "bilibili"
+name = "BiliBili"
+url = "https://space.bilibili.com/558633941"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-bilibili"
