@@ -1,57 +1,57 @@
 # Pages placed under these sections will be shown on homepage and archive page.
 mainSections = ["post"]
 # Output page's full content in RSS.
+favicon = "img/favicon.png"
 rssFullContent = true
-favicon        = "img/favicon.png"
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
 # lastmod = sort by last modified date, in descending order
-SortBy              = "default"
+SortBy = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+customText = ""
+since = 2020
 
 [dateFormat]
-    published   = ":date_full"
-    lastUpdated = ":date_full"
+lastUpdated = ":date_full"
+published = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "img/avatar.png"
+avatar = "img/avatar.png"
+emoji = "🍥"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 [article]
-    headingAnchor = false
-    math          = false
-    readingTime   = true
+headingAnchor = false
+math = false
+readingTime = true
 
-    [article.license]
-        enabled = true
-        default = "Licensed under CC BY-NC-SA 4.0"
+[article.license]
+default = "Licensed under CC BY-NC-SA 4.0"
+enabled = true
 
 [widgets]
-    homepage = [
-        { type = "search" },
-        { type = "archives", params = { limit = 5 } },
-        { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
-    ]
-    page = [{ type = "toc" }]
+homepage = [
+  {type = "search"},
+  {type = "archives", params = {limit = 5}},
+  {type = "categories", params = {limit = 10}},
+  {type = "tag-cloud", params = {limit = 10}},
+]
+page = [{type = "toc"}]
 
 [opengraph.twitter]
-    site = ""
-    card = "summary_large_image"
+card = "summary_large_image"
+site = ""
 
 [colorScheme]
-    toggle  = true
-    default = "auto"
+default = "auto"
+toggle = true
 
 ## Comments
 [comments]
-    enabled  = true
-    provider = "disqus"
+enabled = true
+provider = "disqus"
 
-    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # Copy the configurations you need from there and paste it here.
+# See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
+# Copy the configurations you need from there and paste it here.
